@@ -1,0 +1,12 @@
+[project]
+name = "langgraphproject"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=1.2.12",
+    "grandalf>=0.8",
+    "loguru>=0.7.3",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "langchain>=1.4.2",
+    "langchain-openai>=1.6.6",
+]
